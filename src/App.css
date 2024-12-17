@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.chatbot-sts {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #109585;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+::selection {
+  background-color: #109585;
+  color: #ffffff;
+}
